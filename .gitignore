@@ -1,0 +1,40 @@
+# Internal-only workspace: design docs, notes, test/scratch code.
+# Never pushed — main branch should only ever contain prod-ready code.
+DEV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+.pnpm-store/
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Misc build artifacts
+*.tmp
+*.cache
